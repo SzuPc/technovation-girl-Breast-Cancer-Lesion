@@ -1,6 +1,6 @@
 # Interpretable Ultrasound Breast Cancer Lesion Recognition Based on Temporal Memory
 
-### [Project Page]([https://cotracker3.github.io/](https://szupc.github.io/Breast-Lesion-Detection/))
+### [Project Page](https://szupc.github.io/Breast-Lesion-Detection/)
 
 ## Introduction
 
