@@ -2,6 +2,7 @@
 
 ## Introduction
 
+We are committed to protecting the healthy development of women and have developed an algorithm for rapid detection of breast cancer. It simulates the characteristics of doctors when making diagnoses and can quickly review lesions from previous periods to see if there are any false positive cases. It can also provide auxiliary guidance to young doctors and remote areas with unbalanced medical resources.
 
 ## Training and Inference
 
@@ -23,8 +24,3 @@ DATASETS.SPLIT "test" \
 DATASETS.NUM_FOLDS 1 \
 # MODEL.WEIGHTS 'pretrained_models/ultradet.pth' # If you wish to load the pre-trained weights of UltraDet that we have released, please include this line of code
 ```
-
-python train_net.py --num-gpus 1 --eval-only  --resume \
---config-file /home/lenovo/zrl_science_project/UltraDet/configs/Base-UltraDet_R34_C4.yaml \
-DATASETS.SPLIT "test" \
-DATASETS.NUM_FOLDS 1 
